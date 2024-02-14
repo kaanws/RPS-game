@@ -7,7 +7,7 @@ def cheat_ai_choice(users_choice):
     else:
         return "Rock"
 def produce_ai_choice():
-    n = random.randint(1,2)
+    n = random.randint(1,3)
     if n == 1:
         return "Rock"
     elif n == 2:
